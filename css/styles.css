@@ -635,3 +635,285 @@ th {
   color: #ffffff80;
 }
 /* Main Section End */
+
+/* Footer Section Start*/
+.footer {
+  max-width: 1440px;
+  height: auto;
+  background-color: black;
+  padding-top: 88px;
+}
+.footer-part {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  background-color: #222222;
+  padding-top: 26px;
+}
+.footer-text h1 {
+  font-size: 4.25rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+  color: #e6533c;
+  font-style: italic;
+}
+.footer-text p {
+  font-size: 0.75rem;
+  color: #ffffff80;
+}
+.footer-main {
+  display: flex;
+  justify-content: space-around;
+
+  margin-top: 66px;
+}
+.footer-get {
+  display: flex;
+  gap: 152px;
+}
+.list-about {
+  list-style: none;
+  font-size: 1.5rem;
+  color: #ffffff80;
+  margin-bottom: 20px;
+}
+.get-list {
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 120%;
+  color: #ffffff;
+  margin-bottom: 39px;
+}
+hr {
+  width: 1000px;
+  margin: 0 auto;
+  margin-top: 50px;
+  background-color: #ffffff1a;
+}
+.copyright {
+  text-align: center;
+  margin-top: 36px;
+  font-size: 1.25rem;
+  color: #ffffff80;
+}
+/* Footer Section End */
+
+/* Mobile responsive section Start */
+@media screen and (max-width: 576px) {
+  #bar {
+    display: block;
+    color: #ffffff;
+  }
+  .menu-bar {
+    display: none;
+  }
+  .header {
+    height: 100%;
+  }
+  .nav-bar {
+    padding-top: 52px;
+    width: 90%;
+  }
+  .banner {
+    flex-direction: column;
+    width: 90%;
+    gap: 48px;
+  }
+  .banner-text {
+    max-width: 352px;
+    height: 335px;
+  }
+
+  .banner-text h1 {
+    font-size: 2.25rem;
+    width: 285px;
+  }
+  .banner-text p {
+    width: 275px;
+  }
+  .btn-section {
+    display: flex;
+  }
+  .primary-btn {
+    width: 169px;
+    height: 54px;
+
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .banner-photo {
+    margin: 0 auto;
+  }
+  .box-1 {
+    width: 145px;
+    height: 74px;
+    padding: 9px;
+    left: 230px;
+    top: 620px;
+  }
+  .box-1 h3 {
+    font-size: 1.75rem;
+  }
+  .box-1 p {
+    font-size: 9px;
+  }
+  .box-2 {
+    width: 155.74px;
+    height: 72.58px;
+    left: 32px;
+    top: 835px;
+  }
+  .box-2 h3 {
+    font-size: 16px;
+  }
+  .box-2 p {
+    font-size: 10px;
+  }
+  .habit-list-item {
+    flex-direction: column;
+  }
+  .run {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .run-text {
+    width: 287px;
+    height: 264px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0px;
+    margin-bottom: 31px;
+  }
+  .run-text > .primary-btn {
+    width: 80%;
+    height: 54px;
+    border-radius: 14px;
+    margin-left: 10px;
+  }
+  .run-text h1 {
+    font-size: 2rem;
+  }
+  .run-image {
+    width: 287px;
+    height: 170px;
+  }
+  .exercises-item {
+    width: 90%;
+  }
+
+  .exercises-image {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .exercises-image > .exercises-item:nth-child(1) {
+    max-width: 175px;
+  }
+  .exercises-image > .exercises-item:nth-child(3) {
+    display: none;
+  }
+  .exercises-image > .exercises-item:nth-child(2) {
+    max-width: 175px;
+    background-position: 75% 25%;
+  }
+  .exercises-image2 {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+  }
+  .exercises-image2 > .exercises-item:nth-child(1) {
+    max-width: 175px;
+  }
+  .exercises-image2 > .exercises-item:nth-child(2) {
+    max-width: 175px;
+  }
+
+  .exercises-image2 > .exercises-item:nth-child(3) {
+    display: none;
+  }
+  .bma-cal {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    padding: 20px 10px 20px 10px;
+  }
+  .bma-header p {
+    text-align: center;
+    margin-left: 0px;
+  }
+  .bma-cal-part {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .bma-cal-input {
+    width: 300px;
+
+    gap: 12px;
+    margin: 0 auto;
+  }
+  .bma-cal-part h3 {
+    text-align: center;
+  }
+  .bma-cal-part p {
+    text-align: center;
+  }
+  .hight,
+  .Weight,
+  .age,
+  .sex,
+  .factor {
+    padding: 10px 15px 10px 15px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    border: none;
+    color: #797777;
+  }
+  .factor {
+    width: 300px;
+  }
+  .hight,
+  .Weight,
+  .age,
+  .sex {
+    width: 130px;
+  }
+  .bma-cal-part h3 {
+    margin-top: 34px;
+  }
+  .team-photo {
+    grid-template-columns: repeat(1, auto);
+  }
+  .footer-part {
+    padding: 20px;
+  }
+  .footer-main {
+    flex-direction: column;
+
+    gap: 30px;
+  }
+  .footer-get {
+    flex-direction: column;
+    gap: 20px;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .diet-plan {
+    gap: 20px;
+  }
+  .diet-plan h1 {
+    font-size: 3rem;
+  }
+  .diet-plan p {
+    font-size: 0.75rem;
+    text-align: center;
+    color: #fafaf9;
+  }
+}
+
+/* Mobile responsive section Start */
