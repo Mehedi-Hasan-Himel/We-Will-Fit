@@ -1,4 +1,3 @@
-/* Universal CSS Code Start*/
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/miama-nueva");
 * {
@@ -9,16 +8,15 @@
 body {
   font-family: "Inter", sans-serif;
 }
-/* Universal CSS Code End */
 
-/* header section Start*/
+/* header section */
 .header {
   max-width: 1440px;
   height: auto;
   background: linear-gradient(#111111, #262424, #141313);
   position: relative;
 }
-.nav-bar {
+.nav-ber {
   width: 80%;
   margin: 0 auto;
 
@@ -141,15 +139,13 @@ body {
   color: #efede8a6;
   font-size: 1rem;
 }
-.circle {
+.crcle {
   width: 40px;
   height: 40px;
   background-color: #e6533c;
   border-radius: 50%;
 }
-/* Header Section End */
-
-/* Main Section Start */
+/* hadit section style */
 .habits {
   max-width: 1440px;
   background: black;
@@ -173,7 +169,7 @@ body {
   text-align: center;
   margin-bottom: 54px;
 }
-.habit-list-item {
+.hebit-ilst-item {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -296,14 +292,14 @@ body {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-.exercises-item {
+.exer-item {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
 }
-.exercises-image > .exercises-item:nth-child(1) {
+.exercises-image > .exer-item:nth-child(1) {
   width: 256px;
   height: 214px;
   background-image: linear-gradient(
@@ -314,7 +310,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
 }
-.exercises-image > .exercises-item:nth-child(1) > p {
+.exercises-image > .exer-item:nth-child(1) > p {
   position: absolute;
   left: 24px;
   top: 157px;
@@ -322,27 +318,27 @@ body {
   font-weight: 600;
 }
 
-.exercises-image > .exercises-item:nth-child(2) {
+.exercises-image > .exer-item:nth-child(2) {
   width: 451px;
   height: 214px;
   background-image: linear-gradient(rgba(255, 0, 0, 0.3), rgba(255, 0, 0, 0.3)),
     url(../images/exercise2.png);
   background-size: cover;
 }
-.exercises-image > .exercises-item:nth-child(2) > p {
+.exercises-image > .exer-item:nth-child(2) > p {
   left: 31px;
   top: 25px;
   color: #111111;
   font-weight: 600;
 }
-.exercises-image > .exercises-item:nth-child(3) {
+.exercises-image > .exer-item:nth-child(3) {
   width: 301px;
   height: 214px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/exercise3.png);
   background-size: cover;
 }
-.exercises-image > .exercises-item:nth-child(3) > p {
+.exercises-image > .exer-item:nth-child(3) > p {
   left: 27px;
   top: 146px;
 }
@@ -350,18 +346,18 @@ body {
   display: grid;
   grid-template-columns: repeat(3, auto);
 }
-.exercises-image2 > .exercises-item:nth-child(1) {
+.exercises-image2 > .exer-item:nth-child(1) {
   width: 401px;
   height: 214px;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(../images/exercise4.png);
   background-size: cover;
 }
-.exercises-image2 > .exercises-item:nth-child(1) > p {
+.exercises-image2 > .exer-item:nth-child(1) > p {
   left: 225px;
   top: 25px;
 }
-.exercises-image2 > .exercises-item:nth-child(2) {
+.exercises-image2 > .exer-item:nth-child(2) {
   width: 256px;
   height: 214px;
   background-image: linear-gradient(
@@ -371,11 +367,11 @@ body {
     url(../images/exercise5.jpg);
   background-size: cover;
 }
-.exercises-image2 > .exercises-item:nth-child(2) > p {
+.exercises-image2 > .exer-item:nth-child(2) > p {
   left: 34px;
   top: 144.5px;
 }
-.exercises-image2 > .exercises-item:nth-child(3) {
+.exercises-image2 > .exer-item:nth-child(3) {
   width: 351px;
   height: 214px;
   background-image: linear-gradient(
@@ -385,11 +381,11 @@ body {
     url(../images/exercise6.jpg);
   background-size: cover;
 }
-.exercises-image2 > .exercises-item:nth-child(3) > p {
+.exercises-image2 > .exer-item:nth-child(3) > p {
   left: 38px;
   top: 142.5px;
 }
-.exercises-item p {
+.exer-item p {
   color: rgb(255, 255, 255);
   position: absolute;
 }
@@ -472,7 +468,7 @@ th {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
-.factor {
+.fector {
   grid-column: span 2;
   margin-bottom: 34px;
 }
@@ -480,7 +476,7 @@ th {
 .Weight,
 .age,
 .sex,
-.factor {
+.fector {
   padding: 12px 40px 12px 20px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
@@ -634,9 +630,7 @@ th {
 .box-text p {
   color: #ffffff80;
 }
-/* Main Section End */
-
-/* Footer Section Start*/
+/* footer section */
 .footer {
   max-width: 1440px;
   height: auto;
@@ -650,14 +644,14 @@ th {
   background-color: #222222;
   padding-top: 26px;
 }
-.footer-text h1 {
+.foter-text h1 {
   font-size: 4.25rem;
   font-weight: 800;
   margin-bottom: 20px;
   color: #e6533c;
   font-style: italic;
 }
-.footer-text p {
+.foter-text p {
   font-size: 0.75rem;
   color: #ffffff80;
 }
@@ -667,7 +661,7 @@ th {
 
   margin-top: 66px;
 }
-.footer-get {
+.foter-get {
   display: flex;
   gap: 152px;
 }
@@ -696,9 +690,8 @@ hr {
   font-size: 1.25rem;
   color: #ffffff80;
 }
-/* Footer Section End */
 
-/* Mobile responsive section Start */
+/* small device responsive section */
 @media screen and (max-width: 576px) {
   #bar {
     display: block;
@@ -710,7 +703,7 @@ hr {
   .header {
     height: 100%;
   }
-  .nav-bar {
+  .nav-ber {
     padding-top: 52px;
     width: 90%;
   }
@@ -769,7 +762,7 @@ hr {
   .box-2 p {
     font-size: 10px;
   }
-  .habit-list-item {
+  .hebit-ilst-item {
     flex-direction: column;
   }
   .run {
@@ -808,13 +801,13 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
-  .exercises-image > .exercises-item:nth-child(1) {
+  .exercises-image > .exer-item:nth-child(1) {
     max-width: 175px;
   }
-  .exercises-image > .exercises-item:nth-child(3) {
+  .exercises-image > .exer-item:nth-child(3) {
     display: none;
   }
-  .exercises-image > .exercises-item:nth-child(2) {
+  .exercises-image > .exer-item:nth-child(2) {
     max-width: 175px;
     background-position: 75% 25%;
   }
@@ -822,14 +815,14 @@ hr {
     display: grid;
     grid-template-columns: repeat(2, auto);
   }
-  .exercises-image2 > .exercises-item:nth-child(1) {
+  .exercises-image2 > .exer-item:nth-child(1) {
     max-width: 175px;
   }
-  .exercises-image2 > .exercises-item:nth-child(2) {
+  .exercises-image2 > .exer-item:nth-child(2) {
     max-width: 175px;
   }
 
-  .exercises-image2 > .exercises-item:nth-child(3) {
+  .exercises-image2 > .exer-item:nth-child(3) {
     display: none;
   }
   .bma-cal {
@@ -865,14 +858,14 @@ hr {
   .Weight,
   .age,
   .sex,
-  .factor {
+  .fector {
     padding: 10px 15px 10px 15px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: #797777;
   }
-  .factor {
+  .fector {
     width: 300px;
   }
   .hight,
@@ -895,7 +888,7 @@ hr {
 
     gap: 30px;
   }
-  .footer-get {
+  .foter-get {
     flex-direction: column;
     gap: 20px;
   }
@@ -915,5 +908,3 @@ hr {
     color: #fafaf9;
   }
 }
-
-/* Mobile responsive section Start */
