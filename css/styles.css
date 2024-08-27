@@ -9,7 +9,7 @@ body {
   font-family: "Inter", sans-serif;
 }
 
-/* header section */
+/* header section start*/
 .header {
   max-width: 1440px;
   height: auto;
@@ -17,7 +17,6 @@ body {
   position: relative;
   padding-top: 3rem;
   padding-bottom: 3rem;
-
 }
 .nav-bar {
   width: 80%;
@@ -147,7 +146,9 @@ body {
   background-color: #e6533c;
   border-radius: 50%;
 }
-/* hadit section style */
+/* header section end*/
+
+/* habit section style  start*/
 .habits {
   max-width: 1440px;
   background: black;
@@ -171,7 +172,7 @@ body {
   text-align: center;
   margin-bottom: 54px;
 }
-.hebit-ilst-item {
+.habit-list-item {
   display: flex;
   gap: 40px;
   justify-content: center;
@@ -224,7 +225,9 @@ body {
   font-size: 0.75rem;
   color: #ffffff80;
 }
-/* run section */
+/* habit section style  end*/
+
+/* run section start*/
 .runs {
   max-width: 1440px;
   height: auto;
@@ -266,7 +269,9 @@ body {
   background-size: 240%;
   background-position: 75% 25%;
 }
-/* exercises section style */
+/* run section end*/
+
+/* exercises section style start*/
 .exercises {
   max-width: 1440px;
   height: auto;
@@ -391,7 +396,9 @@ body {
   color: rgb(255, 255, 255);
   position: absolute;
 }
-/* bma-calculator style */
+/* exercises section style end*/
+
+/* bma-calculator style start*/
 .bma-calculator {
   max-width: 1440px;
   height: auto;
@@ -470,7 +477,7 @@ th {
   grid-template-columns: repeat(2, 1fr);
   gap: 12px;
 }
-.fector {
+.factor {
   grid-column: span 2;
   margin-bottom: 34px;
 }
@@ -478,14 +485,16 @@ th {
 .Weight,
 .age,
 .sex,
-.fector {
+.factor {
   padding: 12px 40px 12px 20px;
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   border: none;
   color: #797777;
 }
-/* challenge part */
+/* bma-calculator style end*/
+
+/* challenge part start*/
 .food-diet {
   max-width: 1440px;
   height: auto;
@@ -515,7 +524,9 @@ th {
   font-size: 1rem;
   color: #ffffff80;
 }
-/* OUR TEAM SECTION */
+/* challenge part end*/
+
+/* OUR TEAM SECTION start*/
 .our-team {
   max-width: 1440px;
   height: auto;
@@ -632,7 +643,9 @@ th {
 .box-text p {
   color: #ffffff80;
 }
-/* footer section */
+/* OUR TEAM SECTION end*/
+
+/* footer section start*/
 .footer {
   max-width: 1440px;
   height: auto;
@@ -646,14 +659,14 @@ th {
   background-color: #222222;
   padding-top: 26px;
 }
-.foter-text h1 {
+.footer-text h1 {
   font-size: 4.25rem;
   font-weight: 800;
   margin-bottom: 20px;
   color: #e6533c;
   font-style: italic;
 }
-.foter-text p {
+.footer-text p {
   font-size: 0.75rem;
   color: #ffffff80;
 }
@@ -663,7 +676,7 @@ th {
 
   margin-top: 66px;
 }
-.foter-get {
+.footer-get {
   display: flex;
   gap: 152px;
 }
@@ -693,8 +706,9 @@ hr {
   color: #ffffff80;
   padding-bottom: 3rem;
 }
+/* footer section end*/
 
-/* small device responsive section */
+/* small device responsive section start*/
 @media screen and (max-width: 576px) {
   #bar {
     display: block;
@@ -765,7 +779,7 @@ hr {
   .box-2 p {
     font-size: 10px;
   }
-  .hebit-ilst-item {
+  .habit-list-item {
     flex-direction: column;
   }
   .run {
@@ -861,14 +875,14 @@ hr {
   .Weight,
   .age,
   .sex,
-  .fector {
+  .factor {
     padding: 10px 15px 10px 15px;
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
     border: none;
     color: #797777;
   }
-  .fector {
+  .factor {
     width: 300px;
   }
   .hight,
@@ -891,7 +905,7 @@ hr {
 
     gap: 30px;
   }
-  .foter-get {
+  .footer-get {
     flex-direction: column;
     gap: 20px;
   }
@@ -911,3 +925,4 @@ hr {
     color: #fafaf9;
   }
 }
+/* small device responsive section start*/
