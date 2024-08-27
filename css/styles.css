@@ -15,11 +15,13 @@ body {
   height: auto;
   background: linear-gradient(#111111, #262424, #141313);
   position: relative;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+
 }
-.nav-ber {
+.nav-bar {
   width: 80%;
   margin: 0 auto;
-
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -689,6 +691,7 @@ hr {
   margin-top: 36px;
   font-size: 1.25rem;
   color: #ffffff80;
+  padding-bottom: 3rem;
 }
 
 /* small device responsive section */
@@ -703,7 +706,7 @@ hr {
   .header {
     height: 100%;
   }
-  .nav-ber {
+  .nav-bar {
     padding-top: 52px;
     width: 90%;
   }
